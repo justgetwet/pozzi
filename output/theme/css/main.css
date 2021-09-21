@@ -1,0 +1,152 @@
+html {
+  font-size: 14px;
+  line-height: 1.5rem; }
+
+  body {
+    background: #fcfcfd;
+    color: #1f1d1d;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 4rem;
+    max-width: 650px; }
+
+    header a {
+      color: #1f1d1d;
+      margin-left: 0.5rem;
+      text-decoration: none; }
+      header .header-line {
+        display: flex;
+        align-items: center; }
+        header .header-line .icon-rect {
+          fill: #3e3a3a; }
+          header .header-line .icon-glass {
+            fill: #e6e5ef; }
+            header .header-line .icon-liquid {
+              fill: #e60012; }
+
+footer {
+  margin-top: 1rem;
+  margin-left: 1rem; }
+  footer .footer-line {
+    display: flex;
+    align-items: center; }
+    footer .footer-line a {
+      color: #3e3a3a;
+      margin: 0 0.5rem; }
+
+article {
+  margin-top: 0.5rem;
+  margin-left: 1rem; }
+  article .post-flex {
+    display: flex; }
+    article .post-flex .post-date {
+      width: 6.875rem; }
+      article .post-flex .post-title a {
+        color: #3e3a3a; }
+
+nav {
+  display: flex;
+  align-items: center; }
+  nav a {
+    color: #1f1d1d;
+    text-decoration: none;
+    display: flex;
+    align-items: center; }
+    nav a span {
+      padding: 1px; }
+  nav .center_blank {
+    flex-grow: 1; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3e3a3a;
+  font-weight: bold; }
+
+  h2, h3, h4, h5, h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem; }
+
+    h1 {
+      font-size: 2rem; }
+
+      h2 {
+        font-size: 1.625rem; }
+
+        h3 {
+          font-size: 1.25rem; }
+
+          h4 {
+            font-size: 1.125rem; }
+
+            h5 {
+              font-size: 1rem; }
+
+              h6 {
+                font-size: 0.875rem; }
+
+                hr {
+                  width: 64px;
+                  height: 1px;
+                  margin: 2px 0;
+                  border-width: 1px;
+                  background: #3e3a3a; }
+
+                  p > a {
+                    color: #27243b; }
+
+                    p > img {
+                      margin: auto; }
+
+                      ul, ol {
+                        margin-left: 1.5rem;
+                        padding: 1px;
+                        margin-bottom: 1.5rem; }
+
+                        blockquote {
+                          color: #3e3a3a;
+                          line-height: 1.5rem;
+                          border-left: 0.5rem solid #27243b;
+                          margin-left: 0;
+                          margin-right: 1rem;
+                          padding: 0 0 0 0.5rem; }
+
+                          code {
+                            padding: 1px;
+                            font-family: Inconsolata, Monaco, Consolas, "Courier New", Courier, monospace;
+                            font-size: 1rem;
+                            background: #e6e5ef; }
+
+                            pre {
+                              padding-top: 0.5rem;
+                              padding-bottom: 0.5rem;
+                              padding-left: 0.5rem;
+                              overflow-x: scroll;
+                              font-family: Inconsolata, Monaco, Consolas, "Courier New", Courier, monospace;
+                              background: #e6e5ef; }
+
+                              pre::-webkit-scrollbar {
+                                width: calc(.6rem + 2px); }
+
+                                pre::-webkit-scrollbar-track {
+                                  margin: 1px; }
+
+                                  pre::-webkit-scrollbar-corner {
+                                    display: none; }
+
+                                    pre::-webkit-scrollbar-thumb {
+                                      background: rgba(0, 0, 0, 0.1);
+                                      border-radius: 100px;
+                                      border: solid transparent;
+                                      background-clip: content-box;
+                                      border-width: 1px 2px; }
+
+                                      table {
+                                        width: 100%;
+                                        border-collapse: collapse; }
+
+                                        table, td, th {
+                                          border: 1px solid #3e3a3a; }
+
+                                          @media (max-width: 42rem) {
+                                            body {
+                                              margin: 2rem 0;   }
+}
